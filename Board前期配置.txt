@@ -1,0 +1,4 @@
+Board Geometry - Outline 		画板子外形
+Manufacture - Drafting - Fillet		板子外形倒角
+Setup - Areas - Route Keepin		设置允许布线层
+Setup - Areas - Package Keepin 	设置元件允许放置区域，和外形一致

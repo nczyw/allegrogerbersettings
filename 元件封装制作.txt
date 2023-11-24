@@ -1,0 +1,7 @@
+Silkscreen  丝印层
+Place_Bound_Top 元件实际大小，用矩形
+Assembly   装配层
+ref des   assembly   装配层元件信息
+ref des   silkscreen  丝印层元件信息
+ref value assembly  装配层元件值
+ref value silkscreen 丝印层元件值 

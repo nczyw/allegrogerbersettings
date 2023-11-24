@@ -1,0 +1,3 @@
+Manufacturer - Dimension Environment
+option里面的Text添加%v%u，来标注尺寸
+然后右键菜单中有很多关于尺寸相关功能
