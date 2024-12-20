@@ -1,7 +1,7 @@
-Silkscreen  Ë¿Ó¡²ã
-Place_Bound_Top Ôª¼şÊµ¼Ê´óĞ¡£¬ÓÃ¾ØĞÎ
-Assembly   ×°Åä²ã
-ref des   assembly   ×°Åä²ãÔª¼şĞÅÏ¢
-ref des   silkscreen  Ë¿Ó¡²ãÔª¼şĞÅÏ¢
-ref value assembly  ×°Åä²ãÔª¼şÖµ
-ref value silkscreen Ë¿Ó¡²ãÔª¼şÖµ 
+Silkscreen  ä¸å°å±‚
+Place_Bound_Top å…ƒä»¶å®é™…å¤§å°ï¼Œç”¨çŸ©å½¢
+Assembly   è£…é…å±‚
+ref des   assembly   è£…é…å±‚å…ƒä»¶ä¿¡æ¯
+ref des   silkscreen  ä¸å°å±‚å…ƒä»¶ä¿¡æ¯
+ref value assembly  è£…é…å±‚å…ƒä»¶å€¼
+ref value silkscreen ä¸å°å±‚å…ƒä»¶å€¼ 

@@ -1,4 +1,4 @@
-Board Geometry - Outline 		»­°å×ÓÍâĞÎ
-Manufacture - Drafting - Fillet		°å×ÓÍâĞÎµ¹½Ç
-Setup - Areas - Route Keepin		ÉèÖÃÔÊĞí²¼Ïß²ã
-Setup - Areas - Package Keepin 	ÉèÖÃÔª¼şÔÊĞí·ÅÖÃÇøÓò£¬ºÍÍâĞÎÒ»ÖÂ
+Board Geometry - Outline 		ç”»æ¿å­å¤–å½¢
+Manufacture - Drafting - Fillet		æ¿å­å¤–å½¢å€’è§’
+Setup - Areas - Route Keepin		è®¾ç½®å…è®¸å¸ƒçº¿å±‚
+Setup - Areas - Package Keepin 	è®¾ç½®å…ƒä»¶å…è®¸æ”¾ç½®åŒºåŸŸï¼Œå’Œå¤–å½¢ä¸€è‡´

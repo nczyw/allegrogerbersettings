@@ -1,16 +1,16 @@
-1£ºÏÈ³É×ê¿×ÎÄ¼ş
-	 .drl ÊÇÔ²ĞÎ¿×£¬.rouÊÇ²Û
-	nc_param.txt    ÔÚManufacture - NC - NC Parameters
-	xxx.drl		ÔÚManufacture - NC - Drill		
-	xxx.rou		ÔÚManufacture - NC - Route
-2£ºÉú³É×ê¿×±í
-	Í¼²ãÖ»ÏÔÊ¾outline
-	ÔÚManufacture - NC - Drill Legend
-3:³ö¹â»æÎÄ¼ş
-	ÏÈÔÚManufacture - artworkÖĞÅäÖÃ
-4:Ñ¡Ôñ¸øPCB¼Ó¹¤³§¼ÒµÄÎÄ¼ş
-     xxx.artÊÇÉèÖÃµÄËùÓĞ²ã¶ÔÓ¦µÄ¹â»æÎÄ¼ş£»
-     xxx.drlÊÇ×êÔ²¿×ÎÄ¼ş;
-     xxx.rouÊÇ×ê·½¿×ÎÄ¼ş;
-     art_param.txt ÊÇ¹â»æÎÄ¼ş²ÎÊı
-     nc_param.txt ÊÇ×ê¿×ÎÄ¼ş²ÎÊı
+1ï¼šå…ˆæˆé’»å­”æ–‡ä»¶
+	 .drl æ˜¯åœ†å½¢å­”ï¼Œ.rouæ˜¯æ§½
+	nc_param.txt    åœ¨Manufacture - NC - NC Parameters
+	xxx.drl		åœ¨Manufacture - NC - Drill		
+	xxx.rou		åœ¨Manufacture - NC - Route
+2ï¼šç”Ÿæˆé’»å­”è¡¨
+	å›¾å±‚åªæ˜¾ç¤ºoutline
+	åœ¨Manufacture - NC - Drill Legend
+3:å‡ºå…‰ç»˜æ–‡ä»¶
+	å…ˆåœ¨Manufacture - artworkä¸­é…ç½®
+4:é€‰æ‹©ç»™PCBåŠ å·¥å‚å®¶çš„æ–‡ä»¶
+     xxx.artæ˜¯è®¾ç½®çš„æ‰€æœ‰å±‚å¯¹åº”çš„å…‰ç»˜æ–‡ä»¶ï¼›
+     xxx.drlæ˜¯é’»åœ†å­”æ–‡ä»¶;
+     xxx.rouæ˜¯é’»æ–¹å­”æ–‡ä»¶;
+     art_param.txt æ˜¯å…‰ç»˜æ–‡ä»¶å‚æ•°
+     nc_param.txt æ˜¯é’»å­”æ–‡ä»¶å‚æ•°
