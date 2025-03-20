@@ -64,7 +64,7 @@
   - 想要设置过孔盖油，需要将顶层和底层的阻焊层中的 过孔(Via)层删除，删除就表示过孔不开窗，也就是盖油的意思。
   - Manufacture
     - NC
-      - NC Parameters 要把 Enhanced Excellon format 钩上，不然在有槽孔时，板厂软件可能无法识别
+      - NC Parameters 要把 Enhanced Excellon format 钩上，不然在有槽孔时，板厂软件可能无法识别；在没有槽孔时，不能勾选，勾选后板厂可能无法识别
       - NC Route 把文件后缀修改为slot，不然在有槽孔时，板厂软件可能无法识别
 ## 尺寸标注方法
  - Manufacturer
@@ -78,3 +78,23 @@
     - Areas
       - Route Keepin ，可以使用菜单Edit Z-Cpoy来进行操作，内缩0.2MM左右，不要和边框一样大
       - Package Keepin ， 可以使用菜单Edit Z-Cpoy来进行操作，可以和边框一样大
+## 嘉立创导出元件坐标并修改方法
+ - File -> Export -> Placement
+ - 在`Placement origin` 中选择 `Symbol origin` ,并勾选`Version 2 format(post-16.3)`
+ - 点击Export，就会导出一个txt文件，里面就是坐标了
+ - 打开`place_txt.txt`文件
+ - 删除前三行和第五行
+ - 将`refdes`替换为`Designator`
+ - 将`symbol_x`替换为`Mid x`
+ - 将`symbol_y`替换为`Mid y`
+ - 将`rotation`替换为`Rotation`
+ - 将`mirror`替换为`Layer`
+ - 将`!`替换为`,`
+ - 删除所有`#`号
+ - 删除所有空格
+ - 保存
+ - 创建一个Excel文件并打开
+ - 数据 -> 从文件/CSV，选择刚刚保存修改后的`txt`文件，分隔符选择`逗号`，然后点击`加载`
+ - 删除`embedded_layer`列
+ - `Layer`列，空白的填`T`，表示在顶层；`m`修改为`B`，表示在底层；
+ - 删除默认新建的表格`Table1`，并保存为`xlsx`格式,这就完成了嘉立创元件坐标文件的生成
